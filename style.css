@@ -1,0 +1,202 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/345446.jpg")
+}
+.card input{
+    width: 550px;
+    height: 40px;
+    position:relative;
+    top:50px;
+    left: 100px;
+    box-shadow: 0 1px 5px 0 rgba(53,60,68,.10196078431372549);
+    border-radius: 5px;
+    border: 0.1px solid gray;
+    padding-left: 20px;
+}
+.card button{
+    display: block;
+    width: 200px;
+    height: 60px;
+    position:relative;
+    top:80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    font-family: BRHendrix-Medium;
+
+}
+.card button:hover{
+    top:78.5px;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    width: 800px;
+    height: 450px;
+    box-shadow: 0 1px 5px 0 rgba(53,60,68,.10196078431372549);
+    border-radius: 15px;
+    background-color: white;
+    display: block;
+}
+.card h1{
+    position:relative;
+    top:30px;
+    text-align: center;
+    font-family: BRHendrix-Bold;
+    color: black;
+}
+.card h3{
+    font-family: BRHendrix-Light;
+    position:relative;
+    top:50px;
+    text-indent: 100px;
+}
+
+@media screen and (max-width: 480px){
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        width: 400px;
+        height: 550px;
+    }
+    .card input{
+        width: 330px;
+        height: 40px;
+        top:50px;
+        left: 20px;
+
+    }
+    .card h3{
+        text-indent: 20px;
+    }
+
+}
+@media screen and (max-width: 1024px) and (min-width: 489px ){
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        width: 700px;
+        height: 650px;
+    }
+    .card input{
+        width: 600px;
+        height: 40px;
+        top:50px;
+        left: 20px;
+
+    }
+    .card h3{
+        text-indent: 20px;
+    }
+
+}
+/* Register */
+.card_register input{
+    width: 600px;
+    height: 40px;
+    position:relative;
+    top:50px;
+    left: 100px;
+    box-shadow: 0 1px 5px 0 rgba(53,60,68,.10196078431372549);
+    border-radius: 5px;
+    border: 0.1px solid gray;
+    padding-left: 20px;
+}
+.card_register button{
+    display: block;
+    width: 200px;
+    height: 60px;
+    position:relative;
+    top:100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    font-family: BRHendrix-Medium;
+
+}
+.card_register button:hover{
+    top:98.5px;
+}
+.card_register{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 800px;
+    height: 700px;
+    box-shadow: 0 1px 5px 0 rgba(53,60,68,.10196078431372549);
+    border-radius: 15px;
+    background-color: white;
+    display: block;
+}
+.card_register h1{
+    position:relative;
+    top:30px;
+    text-align: center;
+    font-family:BRHendrix-Bold;
+    color: black;
+}
+.card_register h4{
+    position:relative;
+    top:30px;
+    text-align: center;
+    font-family: BRHendrix-Light;
+    color: black;
+    font-size: 15px;
+}
+.card_register h3{
+    font-family:  BRHendrix-Light;
+    position:relative;
+    top:50px;
+    text-indent: 100px;
+}
+
+@media screen and (max-width: 480px){
+    .card_register {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        width: 400px;
+        height: 700px;
+    }
+    .card_register input{
+        width: 330px;
+        height: 40px;
+        top:50px;
+        left: 20px;
+
+    }
+    .card_register h3{
+        text-indent: 20px;
+    }
+
+}
+@media screen and (max-width: 1024px) and (min-width: 489px ){
+    .card_register {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        width: 700px;
+        height: 700px;
+    }
+    .card_register input{
+        width: 600px;
+        height: 40px;
+        top:50px;
+        left: 20px;
+
+    }
+    .card_register h3{
+        text-indent: 20px;
+    }
+
+}
